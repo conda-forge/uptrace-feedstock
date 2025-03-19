@@ -1,5 +1,5 @@
 {% set name = "uptrace" %}
-{% set version = "1.29.0" %}
+{% set version = "1.31.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/uptrace-{{ version }}.tar.gz
-  sha256: 11247ca28d78aeb5a2651ca810305413c40f5ecc2dd001d7b94626d5fb9c47ea
+  sha256: 8fad08ec159b7f93e4aa04e834005875f602b9ea369c99c9778d0e87ea0deca6
 
 build:
   noarch: python
