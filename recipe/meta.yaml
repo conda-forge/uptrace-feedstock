@@ -21,10 +21,10 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - opentelemetry-api >=1.31.0,<1.32.dev0
-    - opentelemetry-sdk >=1.31.0,<1.32.dev0
-    - opentelemetry-exporter-otlp >=1.31.0,<1.32.dev0
-    - opentelemetry-instrumentation >=0.52b0,<1.dev0
+    - opentelemetry-api >=1.37.0,<1.38.dev0
+    - opentelemetry-sdk >=1.37.0,<1.38.dev0
+    - opentelemetry-exporter-otlp >=1.37.0,<1.38.dev0
+    - opentelemetry-instrumentation >=0.58b0,<1.dev0
 
 test:
   imports:
