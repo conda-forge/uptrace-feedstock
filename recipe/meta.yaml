@@ -1,5 +1,5 @@
 {% set name = "uptrace" %}
-{% set version = "1.31.0" %}
+{% set version = "1.37.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/uptrace-{{ version }}.tar.gz
-  sha256: 8fad08ec159b7f93e4aa04e834005875f602b9ea369c99c9778d0e87ea0deca6
+  sha256: 0b10bb1c10074505519b7625b7987016d589da41c38470b524f716a540915904
 
 build:
   noarch: python
@@ -21,10 +21,10 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - opentelemetry-api >=1.31.0,<1.32.dev0
-    - opentelemetry-sdk >=1.31.0,<1.32.dev0
-    - opentelemetry-exporter-otlp >=1.31.0,<1.32.dev0
-    - opentelemetry-instrumentation >=0.52b0,<1.dev0
+    - opentelemetry-api >=1.37.0,<1.38.dev0
+    - opentelemetry-sdk >=1.37.0,<1.38.dev0
+    - opentelemetry-exporter-otlp >=1.37.0,<1.38.dev0
+    - opentelemetry-instrumentation >=0.58b0,<1.dev0
 
 test:
   imports:
